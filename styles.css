@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@400;500;600;700&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap');
+body {
+    background-image: linear-gradient(90deg, white 0%, 
+    lightgreen 80%, aqua 100%)
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-weight: 900;
+  }
+
+  h2 {
+    /* text-align: center; */
+    font-family: 'Caveat', cursive;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    font-family: 'Caveat', cursive;
+    flex: 1;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: medium;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-family: 'Caveat', cursive;
+  }
+  
+  #pending-tasks-list,
+  #completed-tasks-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .completed-task {
+    text-decoration: line-through;
+  }
+
+button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: darkgreen;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.hello {
+    font-family: 'Ubuntu', cursive;
+    
+}
